@@ -4,12 +4,12 @@ print("Hello world!")
 
 n=5
 numeri=[]
-print("Dammi dei numeri e io ti dirò qual'è il più grade")
+print("Dammi dei numeri e io ti dirò quanto sei bello")
 for i in range(n):
     numero=int(input('Inserisci un numero: '))
     numeri.append(numero)
 
-print('I numeri casuali inseriti nella lista sono: ')
+print('I numeri casuali non mi piacciono: ')
 
 for i in range(n):
     print(numeri[i],end=' ')
